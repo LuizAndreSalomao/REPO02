@@ -2,7 +2,7 @@ terraform {
   required_providers {
     azurerm = {
       source = "hashicorp/azurerm"
-      version = "3.72.0"
+      version = "3.75.0"
     }
   }
 }
@@ -12,9 +12,7 @@ provider "azurerm" {
   tenant_id = "4b35b7f4-e93d-4b85-a7fd-dfca245c5d27"
   client_id = "2376e889-5575-4bce-afa5-fe8adf0744bf"
   client_secret = "_Jb8Q~Li7lJhtBdBcz4LGfIRmPa4MWOaIo5kjbDr"
-  features {
-    
-  }
+  features {}
 }
 
 resource "azurerm_resource_group" "appgrp" {
